@@ -72,7 +72,7 @@ body {
 }
 
 #content {
-  padding: 0px 50px;
+  padding: 0px 400px;
   display: flex;
   justify-content: center;
   gap: 40px;
@@ -117,6 +117,14 @@ aside {
   main {
     flex-flow: column nowrap;
   }
+
+  #content {
+    padding: 0px 10px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+
   main aside {
     align-self: center;
   }
@@ -124,6 +132,13 @@ aside {
 @media screen and (max-width: 768px) {
   nav ul {
     justify-content: center;
+  }
+
+  #content {
+    padding: 0px 10px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
   }
 
   main aside {
